@@ -29,10 +29,10 @@ const IntroScreen: React.FC<IntroScreenProps> = ({ onPlay }) => {
         className="group relative flex items-center justify-center w-32 h-32 md:w-40 md:h-40 bg-[#007FFF] text-white rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 animate-bounce-slow"
       >
         <Play size={48} fill="currentColor" className="ml-2 group-hover:scale-125 transition-transform" />
-        <span className="absolute -bottom-10 font-bold text-[#007FFF] text-xl opacity-0 group-hover:opacity-100 transition-opacity">
-          Let's Start!
-        </span>
       </button>
+      <span className="absolute -bottom-10 font-bold text-[#007FFF] text-xl opacity-0 group-hover:opacity-100 transition-opacity">
+          Let's Start!
+      </span>
     </div>
   );
 };
