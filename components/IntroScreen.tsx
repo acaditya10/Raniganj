@@ -19,9 +19,8 @@ const IntroScreen: React.FC<IntroScreenProps> = ({ onPlay }) => {
         
         <div className="text-center space-y-4">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-700">
-            Hey Beautiful! Ready for a surprise?
+            Hey Beautiful! Let's play a game.
           </h2>
-          <p className="text-gray-500 italic">Complete the mini-games to unlock your wish...</p>
         </div>
       </div>
 
