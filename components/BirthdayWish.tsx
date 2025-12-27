@@ -26,8 +26,6 @@ const BirthdayWish: React.FC = () => {
         </p>
       </div>
 
-      <div className="bg-[#007FFF]/10 p-6 rounded-2xl w-full">
-        <div className="bg-[#007FFF]/10 p-6 rounded-2xl w-full">
   <div className="image-container shadow-lg border-4 border-[#007FFF]/20">
     <img 
       src={DRIVE_LINK} 
@@ -35,8 +33,6 @@ const BirthdayWish: React.FC = () => {
       className="w-full h-auto" // Optional: ensures image fits container
     />
   </div>
-</div>
-      </div>
 
       <div className="text-gray-400 text-sm">
         I love you so much Dikshu🩵
