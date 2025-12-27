@@ -40,7 +40,7 @@ const BirthdayWish: React.FC = () => {
       </div>
 
       <div className="text-gray-400 text-sm">
-        I love you so much 🩵
+        I love you so much Dikshu🩵
       </div>
     </div>
   );
