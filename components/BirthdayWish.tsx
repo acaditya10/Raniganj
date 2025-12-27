@@ -34,13 +34,13 @@ const BirthdayWish: React.FC = () => {
           rel="noopener noreferrer"
           className="inline-flex items-center space-x-2 bg-[#007FFF] text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 active:scale-95 transition-all shadow-lg"
         >
-          <span>Open My Wish Card</span>
+          <span>Open for Lottery</span>
           <ExternalLink size={20} />
         </a>
       </div>
 
       <div className="text-gray-400 text-sm">
-        With all my love, always.
+        I love you so much 🩵
       </div>
     </div>
   );
