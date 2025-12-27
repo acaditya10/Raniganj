@@ -27,16 +27,15 @@ const BirthdayWish: React.FC = () => {
       </div>
 
       <div className="bg-[#007FFF]/10 p-6 rounded-2xl w-full">
-        <p className="text-gray-600 mb-4 italic">Your special surprise awaits:</p>
-        <a
-          href={DRIVE_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center space-x-2 bg-[#007FFF] text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 active:scale-95 transition-all shadow-lg"
-        >
-          <span>Open for Lottery</span>
-          <ExternalLink size={20} />
-        </a>
+        <div className="bg-[#007FFF]/10 p-6 rounded-2xl w-full">
+  <div className="image-container shadow-lg border-4 border-[#007FFF]/20">
+    <img 
+      src={DRIVE_LINK} 
+      alt="Final Message" 
+      className="w-full h-auto" // Optional: ensures image fits container
+    />
+  </div>
+</div>
       </div>
 
       <div className="text-gray-400 text-sm">
